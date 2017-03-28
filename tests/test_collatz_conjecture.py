@@ -10,3 +10,8 @@ class TestCollatzConjectureGraphGenerator(unittest.TestCase):
         dot_generator = collatz_conjecture.GraphGenerator()
         graph = dot_generator.generate(1)
         self.assertEqual(graph, [1])
+
+    def test_should_generate_graph_with_an_even_starting_point(self):
+        dot_generator = collatz_conjecture.GraphGenerator()
+        graph = dot_generator.generate(2)
+        self.assertEqual(graph, [2, 1])
