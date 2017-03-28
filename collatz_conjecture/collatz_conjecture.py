@@ -8,7 +8,9 @@ class GraphGenerator(object):
             graph.append(number)
             if number % 2 == 0:
                 number >>= 1
-
+            else:
+                number *= 3
+                number += 1
         graph.append(1)
 
         return graph

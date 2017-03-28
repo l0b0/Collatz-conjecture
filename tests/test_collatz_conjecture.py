@@ -15,3 +15,8 @@ class TestCollatzConjectureGraphGenerator(unittest.TestCase):
         dot_generator = collatz_conjecture.GraphGenerator()
         graph = dot_generator.generate(2)
         self.assertEqual(graph, [2, 1])
+
+    def test_should_generate_graph_with_an_odd_starting_point(self):
+        dot_generator = collatz_conjecture.GraphGenerator()
+        graph = dot_generator.generate(3)
+        self.assertEqual(graph, [3, 10, 5, 16, 8, 4, 2, 1])
