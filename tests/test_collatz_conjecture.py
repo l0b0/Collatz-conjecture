@@ -21,5 +21,9 @@ class TestCollatzConjectureSequenceGenerator(unittest.TestCase):
         sequence = self.sequence_generator.generate(3)
         self.assertEqual(sequence, [3, 10, 5, 16, 8, 4, 2, 1])
 
+    def test_should_generate_sequence_which_does_not_contain_earlier_sequences(self):
+        sequence = self.sequence_generator.generate(7)
+        self.assertEqual(sequence, [7, 22, 11, 34, 17, 52, 26, 13, 40, 20, 10, 5, 16, 8, 4, 2, 1])
+
     def test_should_fail_with_a_starting_point_below_one(self):
         self.assertRaises(AssertionError, self.sequence_generator.generate, 0)
