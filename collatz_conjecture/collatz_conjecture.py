@@ -1,7 +1,7 @@
 from __future__ import print_function
 
 
-class GraphGenerator(object):
+class SequenceGenerator(object):
     def generate(self, number):
         assert number >= 1
 
