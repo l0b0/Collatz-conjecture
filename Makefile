@@ -1,5 +1,5 @@
 NAME = $(notdir $(CURDIR))
-PACKAGE_NAME = $(subst -,_,$(NAME))
+PACKAGE_NAME = $(shell echo $(subst -,_,$(NAME)) | tr '[:upper:]' '[:lower:]')
 
 .PHONY: all
 all: build
