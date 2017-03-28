@@ -16,3 +16,11 @@ class SequenceGenerator(object):
         graph.append(1)
 
         return graph
+
+
+class ArcGenerator(object):
+    def __init__(self, sequence_generator):
+        self.sequence_generator = sequence_generator
+
+    def generate(self, numbers):
+        return [self.sequence_generator(number) for number in numbers]
