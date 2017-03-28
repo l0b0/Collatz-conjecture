@@ -4,7 +4,7 @@
     <EXTENSION ID="PythonCoverageRunConfigurationExtension" enabled="false" sample_coverage="true" runner="coverage.py"/>
     <envs/>
     <method/>
-    <module name="python_skeleton"/>
+    <module name="Collatz-conjecture"/>
     <option name="ADD_CONTENT_ROOTS" value="true"/>
     <option name="ADD_SOURCE_ROOTS" value="true"/>
     <option name="CLASS_NAME" value=""/>

@@ -71,11 +71,11 @@
         <subPane>
           <PATH>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-skeleton"/>
+              <option name="myItemId" value="Collatz-conjecture"/>
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode"/>
             </PATH_ELEMENT>
             <PATH_ELEMENT>
-              <option name="myItemId" value="python-skeleton"/>
+              <option name="myItemId" value="Collatz-conjecture"/>
               <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.PsiDirectoryNode"/>
             </PATH_ELEMENT>
           </PATH>
@@ -925,7 +925,7 @@
       </state>
       <state key="ModuleStructureConfigurable.UI">
         <settings>
-          <last-edited>python_skeleton</last-edited>
+          <last-edited>Collatz-conjecture</last-edited>
           <splitter-proportions>
             <option name="proportions">
               <list>
